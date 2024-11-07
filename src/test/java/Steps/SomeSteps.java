@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SomeSteps {
-    
+
     @When("some step A")
     public void someStepA() {
         System.out.println("some step 1 text");
